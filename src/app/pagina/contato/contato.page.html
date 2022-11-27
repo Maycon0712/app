@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-menu-button slot="start">
+
+    </ion-menu-button>
+    <ion-title>Contato</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input type="texto" placeholder="digite seu nome"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >E-mail</ion-label>
+      <ion-input type="email" placeholder="digite seu E-mail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Senha</ion-label>
+      <ion-input type="password"placeholder="digite sua senha"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Idade</ion-label>
+      <ion-input type="number" placeholder="digite sua idade"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Cpf</ion-label>
+      <ion-input type="number" placeholder="000.000.000-00"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" >Telefone</ion-label>
+      <ion-input type="tel" placeholder="(99)999999999"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Receber informações importantes no celular?</ion-label>
+      <ion-toggle color="success"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Receber resultados de exames no e-mail?</ion-label>
+      <ion-toggle color="success"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Gênero</ion-label>
+      <ion-select>
+        <ion-select-option>Masculino</ion-select-option>
+        <ion-select-option>Feminino</ion-select-option>
+        <ion-select-option>Prefiro não responder</ion-select-option>
+      </ion-select>
+    </ion-item>
+   
+
+  </ion-list>
+  <ion-content>
+    <ion-button color="success" expand="full" (click)="abrirPagina1()">Confirmar</ion-button>
+   <ion-button color="danger" expand="full" (click)="abrirPagina()">Sair</ion-button>
+  </ion-content>
+</ion-content>

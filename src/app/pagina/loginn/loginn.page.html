@@ -1,0 +1,22 @@
+
+<ion-content [fullscreen]="true">
+  <div class="center">
+    <ion-card color="secondary">
+      <img src="assets/icon/10.jpg" alt="logo">
+      <ion-card-title class="ion-text-center">Agenda Medica</ion-card-title>
+      <ion-item lines="none">
+        <ion-label position="floating">E-mail</ion-label>
+        <ion-input type="email"></ion-input>
+
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label position="floating">Senha</ion-label>
+        <ion-input type="password"></ion-input>
+
+      </ion-item>
+      <ion-button color="success" expand="full" (click)="abrirPagina1()" >Entrar</ion-button>
+      <ion-button color="success" expand="full" (click)="abrirPagina()" >Registrar</ion-button>
+    </ion-card>
+  </div>
+
+</ion-content>
